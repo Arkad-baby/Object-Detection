@@ -1,0 +1,2 @@
+1.We have used the mask to target the vehicle in the selected area using the same dimension as the dimension of the video. We used canva to achive this.
+We can look at the mask inside the Assets/mask.png
