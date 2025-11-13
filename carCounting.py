@@ -168,7 +168,6 @@ while True:
     resultTracker = traker.update(detections)
 
     for result in resultTracker:
-        print("reuslt", result)
         x1, y1, x2, y2, id = result  # Tensors value of box
         x1, y1, x2, y2, id = int(x1), int(y1), int(x2), int(y2), int(id)
         h = y2 - y1
